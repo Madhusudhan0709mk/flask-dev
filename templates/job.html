@@ -1,13 +1,13 @@
 <div class="card">
     
-    <div class="card-body">
+    <div class="card-body bg-dark" data-bs-theme="dark">
 
-      <h5 class="card-title">JOB TITLE : {{job['title']}}</h5>
+      <h5 class="card-title" style="color: aliceblue;">JOB TITLE : {{job['title']}}</h5>
 
-      <p class="card-text">LOCATION :{{job['location']}}</p>
+      <p class="card-text" style="color: aliceblue;">LOCATION :{{job['location']}}</p>
       {% if job['salary'] %}
-      <h6> SALARY:{{job['salary']}}</h6>
+      <h6 style="color: aliceblue;"> SALARY:{{job['salary']}}</h6>
       {% endif %}
-      <a href="#" class="btn btn-primary">APPLY</a>
+      <a href="#" class="btn btn-primary" style="color: aliceblue;">APPLY</a>
     </div>
   </div>
